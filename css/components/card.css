@@ -1,0 +1,47 @@
+.cards {
+  display: flex;
+}
+
+.card-container {
+  width: 400px;
+  margin: 32px;
+}
+
+.card-white {
+  background-color: white;
+  padding: 16px;
+  border: 2px solid rgb(250,250,250);
+}
+
+.card-image {
+  height: 200px;
+  background-size: cover;
+  background-position: 50% 87%;
+}
+
+.card-white .list-inline {
+  text-align: right;
+  margin-top: 16px;
+  font-size: 20px;
+  color: rgba(0,0,0,0.3);
+}
+
+.card-white .list-inline li {
+  margin-right: 8px;
+}
+
+.card-white:hover .btn-white {
+  opacity: 1;
+}
+
+.card-footer {
+  margin-top: 16px;
+  display: flex;
+  align-items: center;
+}
+
+.card-footer a {
+  margin-left: 8px;
+  font-size: 24px;
+  color: rgba(0,0,0,0.8);
+}
